@@ -1,26 +1,26 @@
 public class Evento {
 
       private String nome;
-      private String sobrenome;
       private String endereço;
-      private String categoria;
+      private String genero;
+      private String faixa etaria;
       private String horario;
       private String descricao;
 
-      public Evento(String nome, String sobrenome; String endereco, String categoria, String horario, String descricao) {
+      public Evento(String nome, String endereco, String genero, String faixa etaria, String horario, String descricao) {
         this.nome = nome;
-        this.sobrenome = sobrenome;
         this.endereco = endereco;
-        this.categoria = categoria;
+        this.categoria = genero;
+        this.categoria = faixa etaria;
         this.horario = horario;
         this.descricao = descricao;
       }
 
       public void mostrarEvento() {
         System.out.println("Nome: " + nome);
-        System.out.println("Sobrenome: " + sobrenome);
         System.out.println("Endereço: " + endereco);
-        System.out.println("Categoria: " + categoria);
+        System.out.println("Genero: " + genero);
+        System.out.println("Faixa etaria: " + faixa etaria);
         System.out.println("Horário: " + horario);
         System.out.println("Descrição: " + descricao);
         System.out.println("---------------------------");
