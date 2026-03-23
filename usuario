@@ -1,20 +1,20 @@
 public class Usuario {
 
       String nome;
-      String sexo;
+      String sobrenome;
       String email;
       int idade;
 
-      public  Usuario (String nome, String sexo, String email, int idade) {
+      public  Usuario (String nome, String sobrenome, String email, int idade) {
          this.nome = nome;
-         this.sexo = sexo;
+         this.sexo = sobrenome;
          this.email = email;
          this.idade = idade;
       }
 
       public void mostrarUsuario () {
            System.out.println("Nome: " + nome);
-           System.out.println("Sexo: " + sexo);
+           System.out.println("Sobrenome: " + sobrenome);
            System.out.println("Email: " + email);
            System.out.println("Idade: " + idade);
       }
